@@ -5,6 +5,7 @@
 	align-items: center;
 	height: 15vh;
 	background-color: rgba(0, 0, 0, 0.2);
+	margin-top: 25vh;
 }
 body {
 	padding: 0;
@@ -12,21 +13,36 @@ body {
 	display: flex;
 	flex-grow: 0;
 	font-family: 'Sora';
+	background-color: cadetblue;
 }
 button {
-	border: solid 1px black;
+	border: solid 2px black;
 	width: 15vw;
 	height: 3rem;
 	border-radius: 7px;
+	margin-top: 16px;
+}
+button:hover {
+	background-color: brown;
 }
 .content {
 	width: 67vw;
 	background-color: rgba(0, 0, 0, 0.2);
-	padding: 16px 24px;
+	padding: 24px 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
-div {
-	border: 1px solid black;
+
+form {
+	height: 35vh;
+	margin: 0 -16px;
 }
-.form{
+fieldset {
+	display: flex;
+    
+	justify-content: space-around;
+}
+p{
     
 }
