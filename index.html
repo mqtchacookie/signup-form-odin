@@ -3,7 +3,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Signup Fornm</title>
+		<title>Signup Form</title>
 		<link rel="stylesheet" href="styles.css" />
 		<link
 			rel="stylesheet"
@@ -21,18 +21,33 @@
 				<div class="container">
 					<p>
 						<label for="firstname">First Name</label>
-						<input type="text" name="firstname" id="firstname" />
+						<input
+							type="text"
+							name="firstname"
+							id="firstname"
+							required
+						/>
 					</p>
 					<p>
 						<label for="lastname">Last Name</label>
-						<input type="text" name="lastname" id="lastname" />
+						<input
+							type="text"
+							name="lastname"
+							id="lastname"
+							required
+						/>
 					</p>
 				</div>
 
 				<div class="container">
 					<p>
 						<label for="useremail">Email</label>
-						<input type="email" name="useremail" id="useremail" />
+						<input
+							type="email"
+							name="useremail"
+							id="useremail"
+							required
+						/>
 					</p>
 					<p>
 						<label for="phonenumber">Phone Number</label>
@@ -43,9 +58,30 @@
 						/>
 					</p>
 				</div>
+				<div class="container">
+					<p>
+						<label for="pass">Password</label
+						><input
+							type="password"
+							name="pass"
+							id="pass"
+							required
+							minlength="7"
+						/>
+					</p>
+					<p>
+						<label for="confirmpass">Confirm Password</label
+						><input
+							type="password"
+							name="confirmpass"
+							id="confirmpass"
+							required
+						/>
+					</p>
+				</div>
 			</form>
 
-			<button></button>
+			<button>Create account</button>
 			<h4></h4>
 		</div>
 	</body>

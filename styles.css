@@ -6,6 +6,8 @@
 	height: 15vh;
 	background-color: rgba(0, 0, 0, 0.2);
 	margin-top: 25vh;
+	font-size: 32px;
+	color: aliceblue;
 }
 body {
 	padding: 0;
@@ -17,17 +19,18 @@ body {
 }
 button {
 	border: solid 2px black;
-	width: 15vw;
-	height: 3rem;
+	width: 12vw;
+	height: 2.5rem;
 	border-radius: 7px;
 	margin-top: 16px;
+	margin-left: 5vw;
 }
 button:hover {
 	background-color: brown;
 }
 .content {
 	width: 67vw;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: whitesmoke;
 	padding: 24px 16px;
 	display: flex;
 	flex-direction: column;
@@ -39,8 +42,6 @@ form {
 	margin: 0 -16px;
 	display: flex;
 	flex-direction: column;
-	flex-grow: 0;
-	flex-shrink: 0;
 }
 
 p {
@@ -56,5 +57,17 @@ p {
 	margin: 2vh 5vw;
 }
 input {
-	width: ;
+	width: 15vw;
+	height: 4vh;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+input:valid {
+	border-color: lightgreen;
+}
+input:invalid {
+	border-color: lightcoral;
+}
+input:focus {
+	border: 2px solid dodgerblue;
 }
